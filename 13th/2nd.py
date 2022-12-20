@@ -84,7 +84,3 @@ with open("in.txt") as f:
 
 lines = sorted(lines, key=cmp_to_key(compare))
 print((lines.index([2]) + 1) * (lines.index([6]) + 1))
-
-
-
-
